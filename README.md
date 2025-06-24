@@ -8,14 +8,14 @@
 
 При запуске бот читает файл `.env` и подтягивает оттуда:
 
-OMNIDESK_USER=
-OMNIDESK_PASSWORD=
-TELEGRAM_TOKEN=
-TELEGRAM_CHAT_ID=
-TIMEZONE=Europe/Moscow
-BASE_URL=
-LOG_DIR=logs
-LOG_LEVEL=INFo
+- OMNIDESK_USER=
+- OMNIDESK_PASSWORD=
+- TELEGRAM_TOKEN=
+- TELEGRAM_CHAT_ID=
+- TIMEZONE=Europe/Moscow
+- BASE_URL=
+- LOG_DIR=logs
+- LOG_LEVEL=INFo
 
 Если чего-то не хватает, бот завершится с ошибкой — запуск без ключей невозможен.
 
