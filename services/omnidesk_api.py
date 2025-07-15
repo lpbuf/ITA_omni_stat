@@ -3,7 +3,7 @@ from typing import List, Dict, Any
 import requests
 from urllib.parse import quote
 
-from config import OMNIDESK_USER, OMNIDESK_PASSWORD, BASE_URL
+from config import OMNIDESK_USER, OMNIDESK_TOKEN, BASE_URL
 
 
 def fetch_stats(from_time: datetime, to_time: datetime) -> List[Dict[str, Any]]:
@@ -23,7 +23,7 @@ def fetch_stats(from_time: datetime, to_time: datetime) -> List[Dict[str, Any]]:
 
     resp = requests.get(
         url,
-        auth=(OMNIDESK_USER, OMNIDESK_PASSWORD),
+        auth=(OMNIDESK_USER, OMNIDESK_TOKEN),
         headers={"Content-Type": "application/json"}
     )
     resp.raise_for_status()

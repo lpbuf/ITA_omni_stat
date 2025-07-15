@@ -27,7 +27,7 @@
 При запуске бот читает файл `.env` и подтягивает оттуда:
 
 - OMNIDESK_USER=
-- OMNIDESK_PASSWORD=
+- OMNIDESK_TOKEN=
 - TELEGRAM_TOKEN=
 - TELEGRAM_CHAT_ID=
 - TIMEZONE=Europe/Moscow
