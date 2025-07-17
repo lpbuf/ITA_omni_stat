@@ -31,7 +31,7 @@
 - TELEGRAM_TOKEN=
 - TELEGRAM_CHAT_ID=
 - TIMEZONE=Europe/Moscow
-- BASE_URL=
+- BASE_URL=https://<ваш сайт>/
 - LOG_DIR=logs
 - LOG_LEVEL=INFo
 
